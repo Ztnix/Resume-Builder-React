@@ -1,0 +1,142 @@
+.personalDetails {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 5px rgb(192, 192, 192);
+  background-color: white;
+  padding: 1rem;
+  width: 100%;
+  gap: 0.5rem;
+  border-radius: 10px;
+}
+
+.showEduList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+  border-radius: 10px;
+}
+
+.eduContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.eduListItem,
+.addEdu {
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: initial;
+}
+
+.addEdu {
+  text-align: center;
+  width: 30%;
+}
+
+.formContainer {
+  animation: opacity 0.2s both;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.personalDetails label {
+  font-weight: bold;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+input {
+  border-radius: 10px;
+  background-color: rgb(245, 245, 245);
+  height: 2.2rem;
+  padding: 0.5rem;
+}
+
+.showPersonalDetails {
+  background-color: transparent;
+  height: 3rem;
+  border-color: transparent;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: initial;
+  padding: 0rem 1rem;
+}
+
+.showPersonalDetails:hover {
+  cursor: pointer;
+}
+
+.buttonList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.buttonList button {
+  background-color: rgb(190, 190, 190);
+  height: 3rem;
+  border-color: transparent;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.buttonList button:hover {
+  cursor: pointer;
+}
+
+.bottomInputButtons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.bottomInputButtons button {
+  padding: 0.6rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgb(192, 192, 192);
+}
+
+.bottomInputButtons .delete {
+  background-color: rgb(253, 213, 213);
+}
+.bottomInputButtons .save {
+  background-color: rgb(150, 195, 255);
+}
+
+.bottomRightInputButtons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.bottomResume ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 1.5rem 0rem;
+}

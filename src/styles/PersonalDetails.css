@@ -1,0 +1,70 @@
+.personalDetails {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 5px rgb(192, 192, 192);
+  background-color: white;
+  padding: 1rem;
+  width: 100%;
+  gap: 0.5rem;
+  border-radius: 10px;
+}
+
+.inputContainer {
+  animation: opacity 0.2s both;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.personalDetails label {
+  font-weight: bold;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+input {
+  border-radius: 10px;
+  background-color: rgb(245, 245, 245);
+  height: 2.2rem;
+  padding: 0.5rem;
+}
+
+.showPersonalDetails {
+  background-color: transparent;
+  height: 3rem;
+  border-color: transparent;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.showPersonalDetails:hover {
+  cursor: pointer;
+}
+
+.buttonList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.buttonList button {
+  background-color: rgb(190, 190, 190);
+  height: 3rem;
+  border-color: transparent;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.buttonList button:hover {
+  cursor: pointer;
+}

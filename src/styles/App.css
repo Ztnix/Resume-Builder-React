@@ -1,0 +1,22 @@
+.app {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  gap: 2rem;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 750px;
+  flex-grow: 1;
+}
+
+.rightSide {
+  height: 27.94cm;
+  width: 21.59cm;
+}

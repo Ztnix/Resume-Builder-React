@@ -1,0 +1,25 @@
+.resumeCard {
+  display: flex;
+  gap: 1rem;
+}
+
+.leftCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 22%;
+}
+
+.dates {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.cardHeader {
+  font-weight: bold;
+}

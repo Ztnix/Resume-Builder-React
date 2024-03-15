@@ -1,0 +1,13 @@
+.leftTop {
+  display: flex;
+  gap: 5px;
+}
+
+.leftTop button {
+  display: flex;
+  flex-grow: 1;
+  padding: 1rem;
+  background-color: white;
+  justify-content: center;
+  font-weight: bold;
+}
